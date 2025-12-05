@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\ineta\\Desktop\\Capstone\\App-version-5.0\\logs\\.bad645844999d05e8f6d0e3ab3f56253958b8f30-audit.json",
+    "files": [
+        {
+            "date": 1764611389704,
+            "name": "C:\\Users\\ineta\\Desktop\\Capstone\\App-version-5.0\\logs\\app-2025-12-01.log",
+            "hash": "8fccda9987ff913525e32b38c315120f6e7da662f13341d1db92db57bf28a79c"
+        }
+    ],
+    "hashType": "sha256"
+}

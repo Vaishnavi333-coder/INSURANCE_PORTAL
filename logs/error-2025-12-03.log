@@ -1,0 +1,115 @@
+2025-12-03 08:55:23 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 8ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:66:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 08:56:02 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 8ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:66:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 12:02:19 | ERROR | [HTTP-Error] | ✗ POST /api/claims | Error: Bad Request Exception | Duration: 1ms | User: 61 | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 12:02:21 | ERROR | [HTTP-Error] | ✗ POST /api/claims | Error: Bad Request Exception | Duration: 1ms | User: 61 | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 12:02:22 | ERROR | [HTTP-Error] | ✗ POST /api/claims | Error: Bad Request Exception | Duration: 1ms | User: 61 | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 13:01:59 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 5ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 13:02:05 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 2ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 13:02:28 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid Password | Duration: 89ms | User: anonymous | Trace: UnauthorizedException: Invalid Password
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:74:19)
+2025-12-03 15:22:25 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid Password | Duration: 86ms | User: anonymous | Trace: UnauthorizedException: Invalid Password
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:74:19)
+2025-12-03 15:22:51 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 3ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 18:51:22 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid Password | Duration: 78ms | User: anonymous | Trace: UnauthorizedException: Invalid Password
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:74:19)
+2025-12-03 19:00:20 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 2ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Downloads/Latest/Backend-version-5.0/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-03 21:19:39 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 101ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:19:43 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 6ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:19:53 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 8ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:19:55 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 6ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:30 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 5ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:32 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 3ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:36 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 5ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:37 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 3ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:37 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 2ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:38 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 2ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:20:51 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 30ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:22:12 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 68ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:22:18 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 4ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 21:22:39 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 57ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/src/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 22:49:43 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid credentials | Duration: 41ms | User: anonymous | Trace: UnauthorizedException: Invalid credentials
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/auth/auth.service.ts:57:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-03 22:57:04 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid Password | Duration: 131ms | User: anonymous | Trace: UnauthorizedException: Invalid Password
+    at AuthService.login (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/auth/auth.service.ts:64:19)

@@ -1,0 +1,85 @@
+2025-12-01 10:57:27 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 6ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-01 10:57:53 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 1ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-01 17:15:00 | ERROR | [HTTP-Error] | ✗ POST /api/auth/register | Error: ORA-12899: value too large for column "ANUPAM"."user"."passwordHash" (actual: 60, maximum: 50)
+Help: https://docs.oracle.com/error-help/db/ora-12899/ | Duration: 138ms | User: anonymous | Trace: QueryFailedError: ORA-12899: value too large for column "ANUPAM"."user"."passwordHash" (actual: 60, maximum: 50)
+Help: https://docs.oracle.com/error-help/db/ora-12899/
+    at OracleQueryRunner.query (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/driver/src/driver/oracle/OracleQueryRunner.ts:299:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async InsertQueryBuilder.execute (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/query-builder/src/query-builder/InsertQueryBuilder.ts:164:33)
+    at async SubjectExecutor.executeInsertOperations (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/persistence/src/persistence/SubjectExecutor.ts:467:25)
+    at async SubjectExecutor.execute (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/persistence/src/persistence/SubjectExecutor.ts:137:9)
+    at async EntityPersistExecutor.execute (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/persistence/src/persistence/EntityPersistExecutor.ts:182:21)
+    at async UsersService.create (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/users/users.service.ts:30:5)
+    at async AuthService.register (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:36:25)
+2025-12-01 17:21:18 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 3ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-01 17:21:30 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Invalid Password | Duration: 88ms | User: anonymous | Trace: UnauthorizedException: Invalid Password
+    at AuthService.login (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:74:19)
+2025-12-01 17:38:51 | ERROR | [HTTP-Error] | ✗ POST /api/auth/logout | Error: Empty criteria(s) are not allowed for the update method. | Duration: 95ms | User: anonymous | Trace: TypeORMError: Empty criteria(s) are not allowed for the update method.
+    at EntityManager.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/entity-manager/src/entity-manager/EntityManager.ts:788:17)
+    at Repository.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/repository/src/repository/Repository.ts:363:29)
+    at UsersService.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/users/users.service.ts:58:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.logout (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:174:9)
+2025-12-01 17:39:27 | ERROR | [HTTP-Error] | ✗ POST /api/auth/logout | Error: Empty criteria(s) are not allowed for the update method. | Duration: 6ms | User: anonymous | Trace: TypeORMError: Empty criteria(s) are not allowed for the update method.
+    at EntityManager.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/entity-manager/src/entity-manager/EntityManager.ts:788:17)
+    at Repository.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/repository/src/repository/Repository.ts:363:29)
+    at UsersService.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/users/users.service.ts:58:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.logout (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:174:9)
+2025-12-01 18:00:19 | ERROR | [HTTP-Error] | ✗ POST /api/auth/logout | Error: Empty criteria(s) are not allowed for the update method. | Duration: 52ms | User: anonymous | Trace: TypeORMError: Empty criteria(s) are not allowed for the update method.
+    at EntityManager.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/entity-manager/src/entity-manager/EntityManager.ts:788:17)
+    at Repository.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/repository/src/repository/Repository.ts:363:29)
+    at UsersService.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/users/users.service.ts:58:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.logout (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:174:9)
+2025-12-01 18:13:00 | ERROR | [HTTP-Error] | ✗ POST /api/auth/logout | Error: Empty criteria(s) are not allowed for the update method. | Duration: 8ms | User: anonymous | Trace: TypeORMError: Empty criteria(s) are not allowed for the update method.
+    at EntityManager.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/entity-manager/src/entity-manager/EntityManager.ts:788:17)
+    at Repository.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/typeorm/repository/src/repository/Repository.ts:363:29)
+    at UsersService.update (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/users/users.service.ts:58:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.logout (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/src/auth/auth.service.ts:174:9)
+2025-12-01 18:36:19 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 2ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-01 18:38:29 | ERROR | [HTTP-Error] | ✗ POST /api/auth/login | Error: Bad Request Exception | Duration: 1ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+2025-12-01 18:38:48 | ERROR | [HTTP-Error] | ✗ POST /api/auth/register | Error: Bad Request Exception | Duration: 1ms | User: anonymous | Trace: BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)
+    at ValidationPipe.transform (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolveParamValue (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at async pipesFn (/Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at async /Users/C9K4HN/Dev/Capstone-2/capstone-backend/node_modules/@nestjs/core/router/router-execution-context.js:37:30

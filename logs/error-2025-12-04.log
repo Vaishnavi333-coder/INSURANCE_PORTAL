@@ -1,0 +1,10 @@
+2025-12-04 09:32:46 | ERROR | [HTTP-Error] | ✗ PATCH /api/claims/123 | Error: Property "policyId" was not found in "Claim". Make sure your query is correct. | Duration: 15ms | User: 181 | Trace: EntityPropertyNotFoundError: Property "policyId" was not found in "Claim". Make sure your query is correct.
+    at <anonymous> (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:500:31)
+    at Array.forEach (<anonymous>)
+    at UpdateQueryBuilder.createUpdateExpression (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:493:68)
+    at UpdateQueryBuilder.getQuery (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:53:21)
+    at UpdateQueryBuilder.getQueryAndParameters (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/QueryBuilder.ts:495:28)
+    at UpdateQueryBuilder.execute (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:142:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ClaimsService.update (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/claims/claims.service.ts:154:5)
+    at async ClaimsController.update (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/claims/claims.controller.ts:113:12)

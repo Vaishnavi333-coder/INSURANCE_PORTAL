@@ -1,0 +1,150 @@
+2025-12-04 09:32:23 | INFO  | [Bootstrap] | Application running on http://localhost:3000
+2025-12-04 09:32:23 | INFO  | [Bootstrap] | Swagger docs at http://localhost:3000/docs
+2025-12-04 09:32:40 | INFO  | [HTTP-Request] | → POST /api/auth/login | User: anonymous | IP: ::1
+2025-12-04 09:32:40 | INFO  | [Application] | Login attempt for email: anand@gmail.com
+2025-12-04 09:32:40 | INFO  | [Application] | Processing login request for email: anand@gmail.com
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Updating user with id: 181
+2025-12-04 09:32:41 | INFO  | [Application] | User 181 updated successfully
+2025-12-04 09:32:41 | INFO  | [Application] | Login successful for userId: 181, role: user
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← POST /api/auth/login | Status: 201 | Duration: 300ms | User: anonymous
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 4ms | User: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 3ms | User: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 3ms | User: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 2ms | User: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 59ms | User: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 4ms | User: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 81ms | User: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:41 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 2ms | User: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 5ms | User: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Request] | → GET /api/auth/me | User: 181 | IP: ::1
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching current user profile for userId: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching user with id: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Response] | ← GET /api/auth/me | Status: 200 | Duration: 8ms | User: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 10ms | User: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:43 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 4ms | User: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 55ms | User: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 8ms | User: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 91ms | User: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:32:44 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 3ms | User: 181
+2025-12-04 09:32:46 | INFO  | [HTTP-Request] | → PATCH /api/claims/123 | User: 181 | IP: ::1
+2025-12-04 09:32:46 | INFO  | [Application] | Fetching claim with id: 123
+2025-12-04 09:32:46 | INFO  | [Application] | User 181 updating claim 123
+2025-12-04 09:32:46 | INFO  | [Application] | Updating claim 123
+2025-12-04 09:32:46 | ERROR | [HTTP-Error] | ✗ PATCH /api/claims/123 | Error: Property "policyId" was not found in "Claim". Make sure your query is correct. | Duration: 15ms | User: 181 | Trace: EntityPropertyNotFoundError: Property "policyId" was not found in "Claim". Make sure your query is correct.
+    at <anonymous> (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:500:31)
+    at Array.forEach (<anonymous>)
+    at UpdateQueryBuilder.createUpdateExpression (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:493:68)
+    at UpdateQueryBuilder.getQuery (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:53:21)
+    at UpdateQueryBuilder.getQueryAndParameters (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/QueryBuilder.ts:495:28)
+    at UpdateQueryBuilder.execute (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/node_modules/typeorm/query-builder/src/query-builder/UpdateQueryBuilder.ts:142:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ClaimsService.update (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/claims/claims.service.ts:154:5)
+    at async ClaimsController.update (/Users/C9K4HN/Downloads/Latest/Backend-Version-9.0/src/modules/claims/claims.controller.ts:113:12)
+2025-12-04 09:35:12 | INFO  | [Bootstrap] | Application running on http://localhost:3000
+2025-12-04 09:35:12 | INFO  | [Bootstrap] | Swagger docs at http://localhost:3000/docs
+2025-12-04 09:35:16 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 54ms | User: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 5ms | User: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 85ms | User: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:35:16 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 3ms | User: 181
+2025-12-04 09:35:21 | INFO  | [HTTP-Request] | → PATCH /api/claims/123 | User: 181 | IP: ::1
+2025-12-04 09:35:21 | INFO  | [Application] | Fetching claim with id: 123
+2025-12-04 09:35:21 | INFO  | [Application] | User 181 updating claim 123
+2025-12-04 09:35:21 | INFO  | [Application] | Updating claim 123
+2025-12-04 09:35:21 | INFO  | [HTTP-Response] | ← PATCH /api/claims/123 | Status: 200 | Duration: 55ms | User: 181
+2025-12-04 09:35:21 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:35:21 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:21 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:21 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:35:21 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 2ms | User: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 8ms | User: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Request] | → GET /api/claims | User: 181 | IP: ::1
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 9ms | User: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Request] | → GET /api/policies | User: 181 | IP: ::1
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Fetching all policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Found 3 claims for userId: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Response] | ← GET /api/claims | Status: 200 | Duration: 8ms | User: 181
+2025-12-04 09:35:25 | INFO  | [Application] | Found 5 policies for userId: 181
+2025-12-04 09:35:25 | INFO  | [HTTP-Response] | ← GET /api/policies | Status: 200 | Duration: 12ms | User: 181

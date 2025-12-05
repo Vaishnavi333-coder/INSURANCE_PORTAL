@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/logs/.815ffbf3d040dc48b633fd2fa41a526841613d5a-audit.json",
+    "files": [
+        {
+            "date": 1764661711521,
+            "name": "/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/logs/error-2025-12-02.log",
+            "hash": "1313e4c74fa4976d037278b2afa2ebfd171647c27f3d6ac793224ff3aba453b8"
+        },
+        {
+            "date": 1764732319814,
+            "name": "/Users/C9K4HN/Downloads/Latest/Backend-version-5.0/logs/error-2025-12-03.log",
+            "hash": "f6077766e61e07e40a893e9a0460133427c0e41350879b16a8fcd5872257e8a4"
+        }
+    ],
+    "hashType": "sha256"
+}

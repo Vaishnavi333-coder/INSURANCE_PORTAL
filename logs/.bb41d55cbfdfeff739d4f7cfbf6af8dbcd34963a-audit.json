@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/C9K4HN/Dev/Capstone-2/capstone-backend/logs/.bb41d55cbfdfeff739d4f7cfbf6af8dbcd34963a-audit.json",
+    "files": [
+        {
+            "date": 1764563466798,
+            "name": "/Users/C9K4HN/Dev/Capstone-2/capstone-backend/logs/app-2025-12-01.log",
+            "hash": "d82325cd78ea446f822cf024f224a434c4768520e2eab92068371bd9e18bdbd4"
+        }
+    ],
+    "hashType": "sha256"
+}

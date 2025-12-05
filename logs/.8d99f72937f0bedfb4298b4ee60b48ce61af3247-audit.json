@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/C9K4HN/Dev/Capstone-2/FSD/Backend-version-5.0/logs/.8d99f72937f0bedfb4298b4ee60b48ce61af3247-audit.json",
+    "files": [
+        {
+            "date": 1764659609309,
+            "name": "/Users/C9K4HN/Dev/Capstone-2/FSD/Backend-version-5.0/logs/app-2025-12-02.log",
+            "hash": "4861550597ec75f5885cd2f5938a1bac47da78fe2a7455019c0b02aba96e4b49"
+        }
+    ],
+    "hashType": "sha256"
+}
